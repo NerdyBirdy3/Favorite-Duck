@@ -1,0 +1,78 @@
+html
+{text-align: center;
+background: linear-gradient(to bottom right, #ff5e5e, yellow, #0090ff);
+display: inline;}
+
+h2, h3, h4, h5, h6, h7
+{text-decoration: underline overline;
+font-size: 30px;}
+
+h1
+{font-size: 50px;
+margin-bottom: 100px;}
+
+#Duck
+{border-radius: 30%;
+width: 200px;
+border-width: 10px;
+border-color: blue;}
+
+.tabs
+{color: blue;
+font-family: monospace;
+font-weight: bold;
+font-size: 20px;
+list-style: none;
+float: left;
+padding: 10px;
+text-align: center;
+font-weight: bold;
+text-decoration: none;}
+
+.tabs:hover
+{background-color: lightblue;
+font-size: 25px;}
+
+#ul
+{cursor: pointer;
+top: 0px;
+margin-top: 0px;
+right: 30px;
+z-index: 10;
+position: sticky;
+text-decoration: none;}
+
+p
+{font-size: 20px;}
+
+.Headings
+{font-weight: bold;}
+
+.tabs a
+{text-decoration: none;}
+
+iframe
+{margin-bottom: 50px;
+border-color: black;
+border-width: 5px;}
+
+#Contacts
+{background-color: lightblue;}
+
+#Contacts a
+{text-shadow: 1px 1px blue;
+display: inline;}
+
+#Contacts a:hover
+{text-decoration: none;
+text-shadow: none;}
+
+#Pics
+{width: 50% !important;}
+
+img
+{transition: transform .2s;
+border-width: 10px }
+
+img:hover
+{transform: scale(1.3);}
